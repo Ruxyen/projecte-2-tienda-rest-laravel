@@ -1,0 +1,82 @@
+.carrito-container {
+    width: 50%; /* Ancho del contenedor */
+    margin: 50px auto; /* Centrar horizontalmente con margen superior */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    text-align: left; /* Texto alineado a la izquierda */
+    margin-top: 8%;
+}
+
+.carrito-container h1 {
+    font-size: 28px;
+    font-weight: bold; /* Texto en negrita */
+    margin-bottom: 20px;
+    text-align: center; /* Centrar el texto */
+}
+
+.carrito-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.carrito-container li {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+
+.carrito-container form {
+    display: inline; /* Alinear botones horizontalmente */
+}
+.custom-delete-btn {
+    margin-right: 15px;
+    color: red; 
+    background: transparent;
+    border: none; 
+    padding: 0;
+}
+
+.custom-delete-btn i.delete-icon {
+    font-size: 1.5em; /* Cambia el tamaño del ícono a tu preferencia */
+}
+#name_user {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-transform: capitalize;
+
+}
+.boton-compra {
+    background-color: #22a900; /* Color de fondo alternativo */
+        border: none; /* Sin borde */
+        color: white; /* Texto blanco */
+        padding: 12px 28px; /* Espaciado interior */
+        text-align: center; /* Alineación del texto */
+        text-decoration: none; /* Sin subrayado */
+        display: inline-block; /* Mostrar como un bloque en línea */
+        font-size: 16px; /* Tamaño de fuente */
+        margin: 4px 2px; /* Márgenes */
+        transition-duration: 0.4s; /* Duración de la transición */
+        cursor: pointer; /* Cambiar cursor a puntero */
+        border-radius: 6px; /* Bordes redondeados más suaves */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+
+        transition-property: background-color, color;
+}
+.boton-compra:hover {
+    background-color: #1c8b00; /* Nuevo color de fondo al pasar el ratón */
+    color: #fff; /* Nuevo color de texto al pasar el ratón */
+}
+
+.footercar {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    
+    margin-top: 1000px; /* Un valor mayor que la mayoría de alturas de pantalla típicas */
+}
